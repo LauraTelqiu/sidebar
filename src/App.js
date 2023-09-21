@@ -1,7 +1,13 @@
+import Home from './Home'
+import Modal from './Modal'
+import Sidebar from './Sidebar'
+
 const App = () => {
   return (
     <main>
-      <h2>Slider Starter</h2>
+      <Home />
+      <Modal />
+      <Sidebar />
     </main>
   );
 };
